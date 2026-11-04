@@ -22,7 +22,6 @@ export default function Navbar() {
         <li><a href="#skills" className={navLinkStyle}>Skills</a></li>
         <li><a href="#experience" className={navLinkStyle}>Experience</a></li>
         <li><a href="#projects" className={navLinkStyle}>Projects</a></li>
-        <li><a href="#education" className={navLinkStyle}>Education</a></li>
         <li><a href="#certificates" className={navLinkStyle}>Certificates</a></li>
         <li><a href="#resume" className={navLinkStyle}>Resume</a></li>
         <li><a href="#contact" className={navLinkStyle}>Contact</a></li>
@@ -57,7 +56,6 @@ export default function Navbar() {
             <li><a href="#skills" onClick={handleLinkClick} className="block hover:text-blue-400 hover:scale-105 transition py-1">Skills</a></li>
             <li><a href="#experience" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Experience</a></li>
             <li><a href="#projects" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Projects</a></li>
-            <li><a href="#education" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Education</a></li>
             <li><a href="#certificates" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Certificates</a></li>
             <li><a href="#resume" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Resume</a></li>
             <li><a href="#contact" onClick={handleLinkClick} className="block hover:text-blue-400 transition py-1">Contact</a></li>
